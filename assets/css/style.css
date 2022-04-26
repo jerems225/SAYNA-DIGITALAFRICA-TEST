@@ -39,12 +39,15 @@ a{
     color: #fff;
     text-decoration: none;
 }
+section{
+    
+}
 
 /* HEADER */
 
 .main-header{
     background: #B11313;
-    height: 85px;
+    height: 65px;
     color: #fff;
     font-weight: bold;
     font-family: "montserrat";
@@ -107,14 +110,19 @@ nav ul {
 /* Banner */
 
 .banner{
-    background-image: url('../img/illustrations/img1.png');
+    background: url('../img/illustrations/img1.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    min-height: 850px;
+    min-width: 1024px;
+
 }
 
 
 .banner-bg{
-    width: 90%;
-    height: 900px;
+    height: 820px;
 }

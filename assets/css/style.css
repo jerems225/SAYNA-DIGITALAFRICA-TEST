@@ -1,0 +1,120 @@
+/* Font style */
+@font-face {
+    font-family: "montserrat";
+    src: url("font/Typo-FarFromHomecoming.woff2") format("woff2");
+   }
+
+/* GLOBAL CSS*/
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background: #B11313;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 4rem;
+}
+
+h4, h5{
+    font-size: 2.8rem;
+}
+
+li{
+    font-size: 2.5rem;
+    font-family: "montserrat";
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-header{
+    background: #B11313;
+    height: 85px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "montserrat";
+    align-items: center;
+}
+
+nav {
+    min-height: 10 vh;
+    display: flex;
+    margin:auto;
+    width: 90%;
+}
+
+nav ul {
+    display: flex;
+    flex: 2 1 40rem;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.logo{
+    flex: 2 1 40rem;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.reduce-logo-1{
+    float: left;
+}
+
+.reduce-logo-2{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    float: left;
+}
+
+.reduce-logo-3{
+    float:left;
+    align-items: center;
+}
+
+.fig1{
+    width: fit-content;
+}
+
+.fig2{
+    width: fit-content;
+    
+}
+
+.fig3{
+    width: fit-content;
+}
+
+/* Banner */
+
+.banner{
+    background-image: url('../img/illustrations/img1.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-bg{
+    width: 90%;
+    height: 900px;
+}

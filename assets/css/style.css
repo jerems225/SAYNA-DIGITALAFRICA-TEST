@@ -1,8 +1,4 @@
-/* Font style */
-@font-face {
-    font-family: "montserrat";
-    src: url("font/Typo-FarFromHomecoming.woff2") format("woff2");
-   }
+
 
 /* GLOBAL CSS*/
 
@@ -15,7 +11,7 @@ body{
 }
 
 h1 {
-    font-size: 2.6rem;
+    color: white;
 }
 
 h2 {
@@ -38,9 +34,6 @@ li{
 a{
     color: #fff;
     text-decoration: none;
-}
-section{
-    
 }
 
 /* HEADER */
@@ -107,7 +100,7 @@ nav ul {
     width: fit-content;
 }
 
-/* Banner */
+/* Background Banner */
 
 .banner{
     background: url('../img/illustrations/img1.png');
@@ -119,10 +112,82 @@ nav ul {
     right: 0; 
     min-height: 850px;
     min-width: 1024px;
-
 }
-
 
 .banner-bg{
-    height: 820px;
+    height: 420px;
 }
+
+/* Text Banner */
+
+.format_txt{
+    font-size: 90px;
+    color: white;
+    font-family: "Far From Homecoming";
+}
+
+.content_txt{
+    height: 10px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+#banner_content{
+    margin-top: 190px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Button Banner */
+  .button_format{
+      align-items: center;
+      text-align: center;
+  }
+  .btn-h{
+    border: none;
+    border-radius: 14px;
+    color:#B11313;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fff;
+    margin-left: 155px;
+    margin-top: 210px;
+  }
+
+  .btn-a{
+    border: 2px solid;
+    border-color: white;
+    border-radius: 14px;
+    color:#ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: 20px;
+  }
+
+  .slogan{
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 22px;
+      margin-right: 115px;
+      font-family: 'sem';
+
+  }

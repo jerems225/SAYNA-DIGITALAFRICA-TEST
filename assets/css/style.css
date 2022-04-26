@@ -278,7 +278,6 @@ nav ul {
 
 .col_form1{
     display: flex;
-    flex: content;
     float: left;
     align-items: center;
 }
@@ -346,6 +345,88 @@ input::placeholder{
     align-items: center;
     margin-right: 12px;
     margin-top: 30px;
+}
+
+/* Newsletter */
+.newsletter{
+    width: 100%;
+    margin-top: 600px;
+    height: fit-content;
+}
+.img-new{
+    width: 100%;
+    align-items: center;
+    text-align: right;
+    margin-top: -250px;
+    margin-left: 140px;
+    
+}
+
+.form_control_new{
+    margin: 20px;
+    height: 20px;
+    width: 350px;
+    font-size: 13px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 18px;
+    display: block;
+}
+
+#new_name::placeholder, #new_email::placeholder{
+    color: white;
+    align-items: center;
+}
+
+.new_title_1{
+    text-align: left;
+    display: flex;
+    font-size: 23px;
+}
+
+.new_title_2{
+    text-align: left;
+    display: flex;
+    color: white;
+    font-size: 12px;
+}
+
+.checkbox_control{
+    text-align: left;
+    display: flex;
+    float: left;
+}
+
+.checkbox_txt{
+    text-align: left;
+    display: flex;
+    color: white;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+
+.form2_position{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.btn_new{
+    border: none;
+    border-radius: 17px;
+    color:#B11313;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: #fff;
+    display: flex;
+    width: fit-content;
+    margin-top: 51px;
+    margin-left: 70px;
 }
 
 

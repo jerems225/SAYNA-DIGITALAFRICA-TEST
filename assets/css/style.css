@@ -160,6 +160,7 @@ nav ul {
   .button_format{
       align-items: center;
       text-align: center;
+      width: 100%;
   }
   .btn-h{
     border: none;
@@ -508,7 +509,7 @@ input::placeholder{
 
 /* Mobile responsive css */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
     /* Header */
     .main-header{
         background: transparent;
@@ -554,20 +555,55 @@ input::placeholder{
     .reduce-logo-3{
         width: 120px;
     }
+
+    /* Banner */
     .banner{
-        max-width: fit-content;
+        max-width: 100%;
         background-size:contain;
         background-position: top right;
         position: absolute;
         margin-top: -10px;
+
     }
 
     .banner-bg
     {
-        width: fit-content;
+        width: 100%;
     }
     .format_txt{
-        font-size: small;
+        font-size: 30px;
+        align-items: flex-start;
     }
-
+    .content_txt{
+        height: 0px;
+        margin-left: 20px;
+        position: absolute;
+        top: 70px;
+        z-index: 1;
+    }
+    .slogan{
+        font-size: 15px;
+        margin-left: 0px;
+        margin: 20px;
+        position: absolute;
+        top:120px;
+    }
+    .btn-h{
+        padding: 9px 25px;
+        font-size: 10px;
+        background-color: #fff;
+        margin-left: 10px;
+        margin-top: 0px;
+        float: left;
+      }
+    
+      .btn-a{
+        padding: 9px 23px;
+        font-size: 10px;
+        margin-left: 0px;
+        position: absolute;
+        float: right;
+        margin-left: 10px;
+      }
+      
   }

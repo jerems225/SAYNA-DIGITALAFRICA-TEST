@@ -354,12 +354,19 @@ input::placeholder{
     height: fit-content;
 }
 .img-new{
-    width: 100%;
+    width: fit-content;
     align-items: center;
     text-align: right;
-    margin-top: -250px;
-    margin-left: 140px;
+    margin-top: -380px;
+    margin-left: 340px;
     
+}
+
+.new_pos{
+    align-items: center;
+    margin-left: 50px;
+    width: fit-content;
+    margin-bottom: -50px;
 }
 
 .form_control_new{
@@ -429,4 +436,64 @@ input::placeholder{
     margin-left: 70px;
 }
 
+/* Footer */
 
+.footer_content{
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.row_menu{
+  margin-top: 60px;
+  width: 100%;
+}
+
+.row_logo{
+    margin-top: 100px;
+    margin-left: 45%;
+    width: fit-content;
+    align-items: center;
+}
+
+.li_footer{
+   font-size: 16px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+#lang{
+    padding: 6px;
+    background-color: #B11313;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    width: 180px;
+}
+
+.logo_footer{
+    background-color: #B11313;
+    border-radius: 100%;
+    padding: 4px;
+    margin: 5px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.marvel{
+    margin-right: 50px;
+}
+
+.row_copy{
+    text-align: center;
+}
+
+.copy{
+    color: rgb(163, 163, 159);
+    font-size: 10px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
